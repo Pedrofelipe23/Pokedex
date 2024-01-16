@@ -10,11 +10,14 @@
   <div class="main">
     <h2>Pokédex</h2>
     <br />
-    <input id="quantidade" type="text" name="quantidade" placeholder="Insira a quantidade de pokemons..." />
+    <form id="pokemonForm">
+      <input id="quantidade" type="text" name="quantidade" placeholder="Insira a quantidade de pokemons..." />
+      <button type="submit">Buscar</button>
+      <div id="loadingIndicator" style="display: none;">Carregando...</div>
+    </form>
     <div class="pokemon-boxes">
     </div>
     <!--pokemon-boxes-->
-
   </div>
 
   <script src="pokedex.js"></script>

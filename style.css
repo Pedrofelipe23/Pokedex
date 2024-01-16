@@ -8,16 +8,17 @@ body {
   background-color: rgb(56, 51, 78);
 }
 
-.button {
-  background-color: #4CAF50;
+button {
+  background-color: #8c928c;
   /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .main {
